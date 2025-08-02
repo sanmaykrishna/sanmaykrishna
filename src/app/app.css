@@ -1,0 +1,23 @@
+.main-div {
+    position: relative;
+    min-height: 100vh;
+    background-color: #d9cc9d;
+    display: flex;
+    flex-direction: column; /* Keep all your original flex properties */
+}
+
+.image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+app-pic {
+    position: relative;
+    z-index: 2;
+    /* All your existing styles and flex properties work exactly the same */
+}
